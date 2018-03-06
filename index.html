@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <title>pizzr</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">  
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="nav-bar-about">pizzr</h4>  
+                        <p class="text-muted"><em>(peet-sur)</em> noun - a smart tool that will show you how close to deliciousness you are.<br><br>What is hands down a general favorite food? Pizza! And what can you do when you a craving that favorite of all favorites? Search for the closest slice! Our app will find you the closest slice to your current location.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <!-- <h4 class="text-white">T-Squad</h4> -->
+                        <ul class="list-unstyled">
+                            <li><a href="#map" class="text-white">Map</a></li>
+                            <li><a href="about.html" class="text-white">The Team</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark box-shadow">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <img src="assets/images/pizza.png" alt="">
+                    <p> pizzr</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main role="main">
+        <div class="jumbotron jumbotron-fluid pizza-container">
+            <img class="pizza-banner" src="assets/images/bannerBottom.png" alt="">  
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="intro">Who Loves <span id="typed"></span></h1>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- <div><img src="" alt="" class="img-result"></div>
+                        <div class="name-result"></div>
+                        <div class="location-result"></div>
+                        <div class="phone-result"></div> -->
+                        <div class="results" style="overflow-y: scroll; height:100vh; border:1px solid darkgray; padding-left: 25px;"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map"></div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#"><i class="fa fa-3x fa-angle-double-up" aria-hidden="true"></i></a>
+            </p>
+            <p>PizzR 2018</p>
+            <p>Rutgers group project</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- typed.js -->
+    <!-- typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4SY9ZoJsatUeEcL76DhBNKDzdlyu5PvI&libraries=places"></script>
+    <script src="assets/javascript/key.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
